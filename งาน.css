@@ -1,0 +1,67 @@
+/* บล็อกที่ 1 จัดการค่าเริ่มต้นของทุกองค์ประกอบ */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif"
+}
+/* บล็อกที่ 2 สไตล์ของ <body> */
+body{
+	background: linear-gradient(to right,#CC33FF,#CCCCFF);
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+/* บล็อกที่ 3 กล่องฟอร์ม .container */
+.container{
+	background-color: #FCFCFC;
+	padding: 40px;
+	border-radius: 20px;
+	box-shadow: 0 8px 16px rgba(0,0,0,0,2);
+	width: 50%;
+	max-width: 400px;
+}
+/* บล็อกที่ 4 หัวข้อ <h2> */
+h2{
+	text-align: center;
+	margin-bottom: 20px;
+	color: #00FF34;
+}
+/* บล็อกที่ 5 ช่องกรอกข้อมูล */
+input[type="text"],input[type="password"],input[type="email"]{
+	width: 100%;
+	padding: 12px 16px;
+	margin: 8px 0 16px;
+	border: 1px solid #6A6A6A;
+	border-radius: 10px;
+}
+/* บล็อกที่ 6 ปุ่ม <button> */
+button{
+	width: 100%;
+	padding: 12px;
+	background-color: #F10E12;
+	color: white;
+	border: none;
+	border-radius: 10px;
+	font-size: 16px;
+	cursor: pointer;
+	transition: 0.3s ease;
+}
+button:hover{
+		background-color: #429AA8;
+	}
+/* บล็อกที่ 7 ลิงค์ด้านล่าง */
+.link{
+	margin-top: 10px;
+	text-align: center;
+}
+
+.link a{
+	color: #AE29E0;
+	text-decoration: none;
+	font-weight: bold;
+}
+.link a:hover{
+	text-decoration: underline;
+}
